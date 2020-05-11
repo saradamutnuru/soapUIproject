@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="97cb7034-9d7b-4418-8a67-ab45f9a266f5" activeEnvironment="Default" name="REST Project 1" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="5b6df7ef-66a8-417f-95d6-8369995888f1" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="All" path="/rest/v2/all" id="2475ae27-e2a5-416f-b2f1-f6f7cfa482b7"><con:settings/><con:parameters/><con:method name="All 1" id="1296d1d0-3bc0-4590-918f-dafe3f2617d9" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="Request 1" id="c04e39de-fe0e-4dc1-a838-f2b0610ff813" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="13697a2e-2e59-4859-9425-5fa30abd69ff" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="United" path="/rest/v2/name/united" id="199093b1-907b-4cc7-8fdd-ea2a3ab79c82"><con:settings/><con:parameters/><con:method name="United 1" id="02db314d-6e71-40c8-9a88-ff926f573413" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="ac7f839f-dc68-435d-965a-e0ed576eba1b" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="46e127a1-a3a5-4827-80a2-0a4fbcb42a22" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="Aruba" path="/rest/v2/name/aruba" id="423f7eac-41f7-4748-bf29-33c1f0a80a26"><con:settings/><con:parameters><con:parameter><con:name>fullText</con:name><con:value>true</con:value><con:style>QUERY</con:style><con:default>true</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Aruba 1" id="bb7a8ddd-1996-438b-90fb-75ee3088b1c4" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="240d0adf-3b78-4c38-9287-1e1bb01a42d9" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="fullText" value="true" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>fullText</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="e45f2fd4-caf2-4bd2-992b-aec08bfa6d0d" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="Alpha" path="/rest/v2/alpha" id="d9ecad39-03c1-498a-bb3a-67d3b7c78680"><con:settings/><con:parameters><con:parameter><con:name>codes</con:name><con:value>col;no;ee</con:value><con:style>QUERY</con:style><con:default>col;no;ee</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Alpha 1" id="70814dd1-e474-42d0-8ccd-45b32586abb9" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="Request 1" id="cf6f2819-b622-4643-a5a0-448ca5d40de7" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/alpha</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="codes" value="col;no;ee" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>codes</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:WsdlInterface" id="36ac040e-b5cb-4c57-8904-35aab80875b8" wsaVersion="NONE" name="countrySoap" type="wsdl" bindingName="{http://www.webserviceX.NET}countrySoap" soapVersion="1_1" anonymous="optional" definition="https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint></con:endpoints><con:operation id="d5a407a6-a56c-4f43-abb5-4070f06c2d51" isOneWay="false" action="http://www.webserviceX.NET/GetCountries" name="GetCountries" bindingOperationName="GetCountries" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="343e3938-5a18-4ae6-99be-a6a63b8f27a4" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCountries/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCountries"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="3869371f-21df-4853-9124-a61223e2aee6" isOneWay="false" action="http://www.webserviceX.NET/GetCountryByCountryCode" name="GetCountryByCountryCode" bindingOperationName="GetCountryByCountryCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="101cc0f4-c1c2-4c67-8236-012114b3069d" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCountryByCountryCode>
+         <!--Optional:-->
+         <web:CountryCode>US</web:CountryCode>
+      </web:GetCountryByCountryCode>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCountryByCountryCode"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="507398a7-c5fc-48cd-8257-8e878d0dcea0" isOneWay="false" action="http://www.webserviceX.NET/GetCountryByCurrencyCode" name="GetCountryByCurrencyCode" bindingOperationName="GetCountryByCurrencyCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8feccdaf-0c17-4899-8d77-6e839765e008" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCountryByCurrencyCode>
+         <!--Optional:-->
+         <web:CurrencyCode></web:CurrencyCode>
+      </web:GetCountryByCurrencyCode>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCountryByCurrencyCode"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="8594eabe-322b-4321-a680-4a67ee3406a1" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencies" name="GetCurrencies" bindingOperationName="GetCurrencies" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2e38d3bc-c894-4169-a83d-ec37eaf834eb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCurrencies/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCurrencies"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="4e493dd1-43e9-4c48-8913-548a962439aa" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyByCountry" name="GetCurrencyByCountry" bindingOperationName="GetCurrencyByCountry" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0543469a-99f1-410a-adea-a54425437b38" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCurrencyByCountry>
+         <!--Optional:-->
+         <web:CountryName>INDIA</web:CountryName>
+      </web:GetCurrencyByCountry>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCurrencyByCountry"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="5b3b9747-6fd4-4aec-b03f-6395eddbe127" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyCode" name="GetCurrencyCode" bindingOperationName="GetCurrencyCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4830699e-ad38-417d-9f13-528e5e010250" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCurrencyCode/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCurrencyCode"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="fda16e54-bb0b-4fe3-90ee-d1747b04040d" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" name="GetCurrencyCodeByCurrencyName" bindingOperationName="GetCurrencyCodeByCurrencyName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f4502499-31a2-42e6-9ef3-762d0cf637eb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCurrencyCodeByCurrencyName>
+         <!--Optional:-->
+         <web:CurrencyName>?</web:CurrencyName>
+      </web:GetCurrencyCodeByCurrencyName>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName"/></con:call></con:operation><con:operation id="e7ecba9c-fda4-4f93-be32-2b1f559077ad" isOneWay="false" action="http://www.webserviceX.NET/GetGMTbyCountry" name="GetGMTbyCountry" bindingOperationName="GetGMTbyCountry" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0b86fe5e-7b84-40cb-812a-af231a7ac468" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetGMTbyCountry>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetGMTbyCountry>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetGMTbyCountry"/></con:call></con:operation><con:operation id="cd6435b7-41a4-4d11-a86f-69eeec25bd2d" isOneWay="false" action="http://www.webserviceX.NET/GetISD" name="GetISD" bindingOperationName="GetISD" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e8c563af-a986-4712-9fad-ac5f8ceaa47b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetISD>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetISD>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetISD"/></con:call></con:operation><con:operation id="fd9bb972-c2da-4021-ab16-49c37f9e34f4" isOneWay="false" action="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" name="GetISOCountryCodeByCountyName" bindingOperationName="GetISOCountryCodeByCountyName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d8ac1cbe-fc8c-45c6-9ed9-e7e090394883" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetISOCountryCodeByCountyName>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetISOCountryCodeByCountyName>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetISOCountryCodeByCountyName"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="3e9f5b26-0da6-4018-9aa8-ddb007fe58f4" wsaVersion="NONE" name="countrySoap12" type="wsdl" bindingName="{http://www.webserviceX.NET}countrySoap12" soapVersion="1_2" anonymous="optional" definition="https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl"><con:part><con:url>https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://www.webserviceX.NET" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET">
+      <s:element name="GetCountryByCountryCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryCode" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCountryByCountryCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCountryByCountryCodeResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetISD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetISDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetISDResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCountries">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetCountriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCountriesResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencyCodeByCurrencyName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyName" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencyCodeByCurrencyNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrencyCodeByCurrencyNameResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetISOCountryCodeByCountyName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetISOCountryCodeByCountyNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetISOCountryCodeByCountyNameResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencyCode">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetCurrencyCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrencyCodeResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCountryByCurrencyCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCountryByCurrencyCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCountryByCurrencyCodeResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencies">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetCurrenciesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrenciesResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencyByCountry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrencyByCountryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrencyByCountryResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGMTbyCountry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGMTbyCountryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGMTbyCountryResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCountryByCountryCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCountryByCountryCode"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCountryCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCountryByCountryCodeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetISD"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetISDResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCountries"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCountriesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrencyCodeByCurrencyName"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrencyCodeByCurrencyNameResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetISOCountryCodeByCountyName"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetISOCountryCodeByCountyNameResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrencyCode"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrencyCodeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCountryByCurrencyCode"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCountryByCurrencyCodeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrenciesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrencies"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrenciesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrenciesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrencyByCountry"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrencyByCountryResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetGMTbyCountry"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetGMTbyCountryResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCountryCodeHttpGetIn">
+    <wsdl:part name="CountryCode" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCountryCodeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountriesHttpGetIn"/>
+  <wsdl:message name="GetCountriesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameHttpGetIn">
+    <wsdl:part name="CurrencyName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeHttpGetIn"/>
+  <wsdl:message name="GetCurrencyCodeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeHttpGetIn">
+    <wsdl:part name="CurrencyCode" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrenciesHttpGetIn"/>
+  <wsdl:message name="GetCurrenciesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountryHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountryHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCountryCodeHttpPostIn">
+    <wsdl:part name="CountryCode" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCountryCodeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountriesHttpPostIn"/>
+  <wsdl:message name="GetCountriesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameHttpPostIn">
+    <wsdl:part name="CurrencyName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeByCurrencyNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetISOCountryCodeByCountyNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyCodeHttpPostIn"/>
+  <wsdl:message name="GetCurrencyCodeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeHttpPostIn">
+    <wsdl:part name="CurrencyCode" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCountryByCurrencyCodeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrenciesHttpPostIn"/>
+  <wsdl:message name="GetCurrenciesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountryHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetCurrencyByCountryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountryHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetGMTbyCountryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:portType name="countrySoap">
+    <wsdl:operation name="GetCountryByCountryCode">
+      <wsdl:documentation>Get country name by country code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCountryCodeSoapIn"/>
+      <wsdl:output message="tns:GetCountryByCountryCodeSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <wsdl:documentation>Get International Dialing Code by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISDSoapIn"/>
+      <wsdl:output message="tns:GetISDSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <wsdl:documentation>Get all countries with ISO code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountriesSoapIn"/>
+      <wsdl:output message="tns:GetCountriesSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <wsdl:documentation>Get currency by currency name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeByCurrencyNameSoapIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeByCurrencyNameSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <wsdl:documentation>Get countries by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISOCountryCodeByCountyNameSoapIn"/>
+      <wsdl:output message="tns:GetISOCountryCodeByCountyNameSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <wsdl:documentation>Get all currencycode for each country</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeSoapIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <wsdl:documentation>Get country by currency code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCurrencyCodeSoapIn"/>
+      <wsdl:output message="tns:GetCountryByCurrencyCodeSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <wsdl:documentation>Get all currency,currency code for all countries</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrenciesSoapIn"/>
+      <wsdl:output message="tns:GetCurrenciesSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <wsdl:documentation>Get currency by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyByCountrySoapIn"/>
+      <wsdl:output message="tns:GetCurrencyByCountrySoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <wsdl:documentation>Get greenwich mean time(GMT) by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetGMTbyCountrySoapIn"/>
+      <wsdl:output message="tns:GetGMTbyCountrySoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="countryHttpGet">
+    <wsdl:operation name="GetCountryByCountryCode">
+      <wsdl:documentation>Get country name by country code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCountryCodeHttpGetIn"/>
+      <wsdl:output message="tns:GetCountryByCountryCodeHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <wsdl:documentation>Get International Dialing Code by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISDHttpGetIn"/>
+      <wsdl:output message="tns:GetISDHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <wsdl:documentation>Get all countries with ISO code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountriesHttpGetIn"/>
+      <wsdl:output message="tns:GetCountriesHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <wsdl:documentation>Get currency by currency name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeByCurrencyNameHttpGetIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeByCurrencyNameHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <wsdl:documentation>Get countries by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISOCountryCodeByCountyNameHttpGetIn"/>
+      <wsdl:output message="tns:GetISOCountryCodeByCountyNameHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <wsdl:documentation>Get all currencycode for each country</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeHttpGetIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <wsdl:documentation>Get country by currency code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCurrencyCodeHttpGetIn"/>
+      <wsdl:output message="tns:GetCountryByCurrencyCodeHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <wsdl:documentation>Get all currency,currency code for all countries</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrenciesHttpGetIn"/>
+      <wsdl:output message="tns:GetCurrenciesHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <wsdl:documentation>Get currency by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyByCountryHttpGetIn"/>
+      <wsdl:output message="tns:GetCurrencyByCountryHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <wsdl:documentation>Get greenwich mean time(GMT) by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetGMTbyCountryHttpGetIn"/>
+      <wsdl:output message="tns:GetGMTbyCountryHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="countryHttpPost">
+    <wsdl:operation name="GetCountryByCountryCode">
+      <wsdl:documentation>Get country name by country code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCountryCodeHttpPostIn"/>
+      <wsdl:output message="tns:GetCountryByCountryCodeHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <wsdl:documentation>Get International Dialing Code by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISDHttpPostIn"/>
+      <wsdl:output message="tns:GetISDHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <wsdl:documentation>Get all countries with ISO code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountriesHttpPostIn"/>
+      <wsdl:output message="tns:GetCountriesHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <wsdl:documentation>Get currency by currency name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeByCurrencyNameHttpPostIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeByCurrencyNameHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <wsdl:documentation>Get countries by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetISOCountryCodeByCountyNameHttpPostIn"/>
+      <wsdl:output message="tns:GetISOCountryCodeByCountyNameHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <wsdl:documentation>Get all currencycode for each country</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyCodeHttpPostIn"/>
+      <wsdl:output message="tns:GetCurrencyCodeHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <wsdl:documentation>Get country by currency code</wsdl:documentation>
+      <wsdl:input message="tns:GetCountryByCurrencyCodeHttpPostIn"/>
+      <wsdl:output message="tns:GetCountryByCurrencyCodeHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <wsdl:documentation>Get all currency,currency code for all countries</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrenciesHttpPostIn"/>
+      <wsdl:output message="tns:GetCurrenciesHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <wsdl:documentation>Get currency by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrencyByCountryHttpPostIn"/>
+      <wsdl:output message="tns:GetCurrencyByCountryHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <wsdl:documentation>Get greenwich mean time(GMT) by country name</wsdl:documentation>
+      <wsdl:input message="tns:GetGMTbyCountryHttpPostIn"/>
+      <wsdl:output message="tns:GetGMTbyCountryHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="countrySoap" type="tns:countrySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCountryByCountryCode">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCountryByCountryCode" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetISD" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCountries" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCurrencyCode" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCountryByCurrencyCode" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCurrencies" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCurrencyByCountry" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetGMTbyCountry" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="countrySoap12" type="tns:countrySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCountryByCountryCode">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCountryByCountryCode" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetISD" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCountries" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCurrencyCode" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCountryByCurrencyCode" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCurrencies" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCurrencyByCountry" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetGMTbyCountry" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="countryHttpGet" type="tns:countryHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="GetCountryByCountryCode">
+      <http:operation location="/GetCountryByCountryCode"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <http:operation location="/GetISD"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <http:operation location="/GetCountries"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <http:operation location="/GetCurrencyCodeByCurrencyName"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <http:operation location="/GetISOCountryCodeByCountyName"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <http:operation location="/GetCurrencyCode"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <http:operation location="/GetCountryByCurrencyCode"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <http:operation location="/GetCurrencies"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <http:operation location="/GetCurrencyByCountry"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <http:operation location="/GetGMTbyCountry"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="countryHttpPost" type="tns:countryHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="GetCountryByCountryCode">
+      <http:operation location="/GetCountryByCountryCode"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISD">
+      <http:operation location="/GetISD"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountries">
+      <http:operation location="/GetCountries"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCodeByCurrencyName">
+      <http:operation location="/GetCurrencyCodeByCurrencyName"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetISOCountryCodeByCountyName">
+      <http:operation location="/GetISOCountryCodeByCountyName"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyCode">
+      <http:operation location="/GetCurrencyCode"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryByCurrencyCode">
+      <http:operation location="/GetCountryByCurrencyCode"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencies">
+      <http:operation location="/GetCurrencies"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyByCountry">
+      <http:operation location="/GetCurrencyByCountry"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMTbyCountry">
+      <http:operation location="/GetGMTbyCountry"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="country">
+    <wsdl:port name="countrySoap" binding="tns:countrySoap">
+      <soap:address location="http://www.webservicex.net/country.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="countrySoap12" binding="tns:countrySoap12">
+      <soap12:address location="http://www.webservicex.net/country.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="countryHttpGet" binding="tns:countryHttpGet">
+      <http:address location="http://www.webservicex.net/country.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="countryHttpPost" binding="tns:countryHttpPost">
+      <http:address location="http://www.webservicex.net/country.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint></con:endpoints><con:operation id="1d8c655d-e7a5-4ce8-846f-dfa3d40f21a5" isOneWay="false" action="http://www.webserviceX.NET/GetCountries" name="GetCountries" bindingOperationName="GetCountries" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1ecbca62-db07-44d2-a2be-a6fd30a23a4b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCountries/>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCountriesRequest"/></con:call></con:operation><con:operation id="45243f2c-977a-40b6-88a9-ebbcdcfb08c7" isOneWay="false" action="http://www.webserviceX.NET/GetCountryByCountryCode" name="GetCountryByCountryCode" bindingOperationName="GetCountryByCountryCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="dd545439-9348-442d-a69a-6edd1827f610" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCountryByCountryCode>
+         <!--Optional:-->
+         <web:CountryCode>?</web:CountryCode>
+      </web:GetCountryByCountryCode>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCountryByCountryCodeRequest"/></con:call></con:operation><con:operation id="207d8387-638b-46ce-91cd-dbc1387f6d38" isOneWay="false" action="http://www.webserviceX.NET/GetCountryByCurrencyCode" name="GetCountryByCurrencyCode" bindingOperationName="GetCountryByCurrencyCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f88c48df-3bc1-4fbf-8ba9-1aa4d39edf0b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCountryByCurrencyCode>
+         <!--Optional:-->
+         <web:CurrencyCode>?</web:CurrencyCode>
+      </web:GetCountryByCurrencyCode>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCountryByCurrencyCodeRequest"/></con:call></con:operation><con:operation id="f89f3751-10b3-4014-b83f-7ddf0153aa0f" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencies" name="GetCurrencies" bindingOperationName="GetCurrencies" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ac416a74-66c7-42af-af5f-36cd7a3c7991" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCurrencies/>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCurrenciesRequest"/></con:call></con:operation><con:operation id="791ca119-59b7-4da5-a188-60b1e693a9d1" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyByCountry" name="GetCurrencyByCountry" bindingOperationName="GetCurrencyByCountry" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e70d5a9b-5c5c-4d0c-9bbe-88e11f04f782" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCurrencyByCountry>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetCurrencyByCountry>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCurrencyByCountryRequest"/></con:call></con:operation><con:operation id="4df704c1-181c-4c32-beee-09ee4c00480e" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyCode" name="GetCurrencyCode" bindingOperationName="GetCurrencyCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d0de8077-b0a8-405c-b557-b06b756648fc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCurrencyCode/>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCurrencyCodeRequest"/></con:call></con:operation><con:operation id="6fc0ed94-3a22-4eb4-890f-41e00820ee52" isOneWay="false" action="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" name="GetCurrencyCodeByCurrencyName" bindingOperationName="GetCurrencyCodeByCurrencyName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f40ac57a-f1d4-45cb-82ba-2e2b0e542d5b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetCurrencyCodeByCurrencyName>
+         <!--Optional:-->
+         <web:CurrencyName>?</web:CurrencyName>
+      </web:GetCurrencyCodeByCurrencyName>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetCurrencyCodeByCurrencyNameRequest"/></con:call></con:operation><con:operation id="10da3787-9f0b-48b3-8798-7f4cf7d8dd1d" isOneWay="false" action="http://www.webserviceX.NET/GetGMTbyCountry" name="GetGMTbyCountry" bindingOperationName="GetGMTbyCountry" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6b0b4c0e-31f5-4275-8472-ba2a19e4d256" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetGMTbyCountry>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetGMTbyCountry>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetGMTbyCountryRequest"/></con:call></con:operation><con:operation id="0253d70b-843a-442f-bbfb-6163de5475a1" isOneWay="false" action="http://www.webserviceX.NET/GetISD" name="GetISD" bindingOperationName="GetISD" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e79a6b77-8e16-49e0-9ce8-a82d865bc255" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetISD>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetISD>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetISDRequest"/></con:call></con:operation><con:operation id="0bab6a3a-a414-4baf-bdc3-3db302234789" isOneWay="false" action="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" name="GetISOCountryCodeByCountyName" bindingOperationName="GetISOCountryCodeByCountyName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4fb6abb0-77ee-47c1-be2e-fd6c71820bff" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetISOCountryCodeByCountyName>
+         <!--Optional:-->
+         <web:CountryName>?</web:CountryName>
+      </web:GetISOCountryCodeByCountyName>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/countrySoap/GetISOCountryCodeByCountyNameRequest"/></con:call></con:operation></con:interface><con:testSuite id="add87199-3d9e-4c95-ad4a-1cbddd70b432" name="TestSuite1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="f9fa4136-2dd6-4469-8586-f6a86c27bd14" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="GetAllCountries" id="bb23cdf7-0b96-4b78-8da3-49b08da84e2d"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/all" methodName="All 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetAllCountries" id="c04e39de-fe0e-4dc1-a838-f2b0610ff813" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/all</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GetCountriesName" id="27050b6d-645d-4255-ba24-718f8c065f0d"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/name/united" methodName="United 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetCountriesName" id="ac7f839f-dc68-435d-965a-e0ed576eba1b" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/name/united</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:setupScript>log.info ("setup message")
+</con:setupScript><con:tearDownScript>log.info ("tear down message")
+</con:tearDownScript><con:properties/></con:testCase><con:properties/><con:setupScript>log.info "before TS"</con:setupScript><con:tearDownScript>log.info "after TS"</con:tearDownScript></con:testSuite><con:testSuite id="2b6a6996-8b70-4c1e-b30f-d7cfa24ad47b" name="TestSuite2"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="61613744-6bc8-46f3-b254-b55ef6b36f0d" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Copy of GetAllCountries" id="ccf408bc-15a4-4d96-8223-756b27b39c56"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/all" methodName="All 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GetAllCountries" id="c04e39de-fe0e-4dc1-a838-f2b0610ff813" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/all</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="setupteardown" id="f06725b7-6f18-49e1-a53d-a43e603a8353"><con:settings/><con:config><script>testRunner.testCase.testSuite.project.getTestSuiteByName("TestSuite2").getTestCaseByName("TestCase1").setSetupScript('lopg.info"setup for test1"')
+testRunner.testCase.testSuite.project.getTestSuiteByName("TestSuite2").getTestCaseByName("TestCase1").setTearDownScript('log.info"tear doen"')
+
+log.info(">>>>>" + testRunner.testCase.getSetupScript());
+log.info(">>>>>" + testRunner.testCase.getTearDownScript())
+
+
+</script></con:config></con:testStep><con:setupScript>log.info ("setup message")
+</con:setupScript><con:tearDownScript>log.info ("tear down message")
+</con:tearDownScript><con:properties/></con:testCase><con:testCase id="8fbd8b86-b835-4f18-acde-5a26d1506d45" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Assertions" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Copy of GetAllCountries" id="f6354858-4b78-4b0a-a111-d8be08cd6d07"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/all" methodName="All 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GetAllCountries" id="c04e39de-fe0e-4dc1-a838-f2b0610ff813" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/all</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:setupScript>log.info ("setup message")
+</con:setupScript><con:tearDownScript>log.info ("tear down message")
+</con:tearDownScript><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="44a15f23-a5f4-43d8-8dd4-f91e498e8e1b" name="TestSuite3"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="969fb32a-6995-4687-b84e-e40a738d5aab" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="GetCountryCodes" id="510e697a-8c61-4a68-8b0a-127f40fdc8f5"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/alpha" methodName="Alpha 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetCountryCodes" id="cf6f2819-b622-4643-a5a0-448ca5d40de7" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/alpha</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="codes" value="col;no;ee" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>codes</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="getCountryName" id="effcf813-baa6-4d52-89f6-790643b51cbb"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/name/united" methodName="United 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="getCountryName" id="ac7f839f-dc68-435d-965a-e0ed576eba1b" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/name/united</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="getAll" id="7954e5ad-1c5a-481c-b66f-edc7c175bb66"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/all" methodName="All 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="getAll" id="c04e39de-fe0e-4dc1-a838-f2b0610ff813" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/all</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="request" id="d36e56ed-efd0-469e-b8db-5aa4cd33560a" name="GetCountryByCurrencyCode"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>countrySoap</con:interface><con:operation>GetCountryByCurrencyCode</con:operation><con:request name="GetCountryByCurrencyCode" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="c9347f95-b957-4afd-ac5a-a20fa28ae9fb"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCountryByCurrencyCode>
+         <!--Optional:-->
+         <web:CurrencyCode>?</web:CurrencyCode>
+      </web:GetCountryByCurrencyCode>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="be4aae07-998e-4d72-a500-844f55d195c1" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetCountryByCurrencyCode"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:setupScript>log.info ("setup message")
+</con:setupScript><con:tearDownScript>log.info ("tear down message")
+</con:tearDownScript><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:afterLoadScript>
+/***
+setting up setup and tear down from external files
+setup.txt and teardown.txt are files.
+if the files are in soapui bin folder then we can pass the filenaame directly else we need to pass the whole path to teh file.
+*/
+
+def su =  new File("setup.txt").text
+def td = new File("teardown.txt").text
+
+project.getTestSuiteList(). each { testSuite ->
+testSuite.getTestCaseList().each {  testCase ->
+      testCase.setSetupScript(su)
+      testCase.setTearDownScript(td)
+	}
+	
+	}</con:afterLoadScript><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:beforeRunScript>log.info "before Project"</con:beforeRunScript><con:afterRunScript>log.info "after project"</con:afterRunScript><con:sensitiveInformation/></con:soapui-project>
