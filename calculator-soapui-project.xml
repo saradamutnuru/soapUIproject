@@ -569,7 +569,7 @@ declare namespace ns1='http://tempuri.org/';
          <tem:intB>3</tem:intB>
       </tem:Multiply>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://tempuri.org/Multiply" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="call-Hello" id="58fe03ff-3ab3-42eb-9891-729cc37286fd"><con:settings/><con:config><script>def testStep = testRunner.testCase.getTestStepByName("Hello")
+</soapenv:Envelope>]]></con:request><con:assertion type="XPath Match" id="1895d3ba-682e-400f-ada9-c68725b7c74f" name="XPath Match"><con:configuration/></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://tempuri.org/Multiply" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="call-Hello" id="58fe03ff-3ab3-42eb-9891-729cc37286fd"><con:settings/><con:config><script>def testStep = testRunner.testCase.getTestStepByName("Hello")
 
 testStep.run(testRunner, context)
 
